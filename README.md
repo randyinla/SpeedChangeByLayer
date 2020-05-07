@@ -1,5 +1,5 @@
 # SpeedChangeByLayer
-Cura plugin to insert print speed or fan speed changes on a layer by layer basis in the Cura generated GCode
+Cura plugin to insert print speed or fan speed changes on a layer by layer basis in the Cura generated GCode\n
 Copyright (c) 2020 Randy Walker, randy@walkersystems.net
 
 This script was inspired by the ChangeAtZ script by Steven Morlock, smorloc@gmail.com
