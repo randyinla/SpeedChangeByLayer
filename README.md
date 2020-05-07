@@ -3,11 +3,11 @@ Cura plugin to insert print speed or fan speed changes on a layer by layer basis
 
 Copyright (c) 2020 Randy Walker, randy@walkersystems.net
 
-This script was inspired by the ChangeAtZ script by Steven Morlock, smorloc@gmail.com
-I wanted a script that would allow me to only change print & fan speeds per layer, not when the z-axis change happens, starting/ending at the ;LAYER:xx marker comments
-I started with the code from the ChangeAtZ script and have removed & re-written most of it to only handle print/fan speeds per layer
-It runs with the PostProcessingPlugin which is released under the terms of the AGPLv3 or higher
-This script is licensed under the Creative Commons - Attribution - Share Alike (CC BY-SA) terms
+This script was inspired by the ChangeAtZ script by Steven Morlock, smorloc@gmail.com.  
+I wanted a script that would allow me to only change print & fan speeds per layer, not when the z-axis change happens, starting/ending at the ;LAYER:xx marker comments.  
+I started with the code from the ChangeAtZ script and have removed & re-written most of it to only handle print/fan speeds per layer.
+It runs with the PostProcessingPlugin which is released under the terms of the AGPLv3 or higher.  
+This script is licensed under the Creative Commons - Attribution - Share Alike (CC BY-SA) terms.  
 
 This script accepts four parameters, provided by the user to change Print and/or Fan speeds by layer:
   1) Layer number from the Cura gui on which to start the speed change
