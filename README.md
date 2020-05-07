@@ -2,6 +2,7 @@
 Cura plugin to insert print speed or fan speed changes on a layer by layer basis in the Cura generated GCode
 
 SpeedChangeByLayer - Copyright (c) 2020 Randy Walker, randy@walkersystems.net
+
 This script was inspired by the ChangeAtZ script by Steven Morlock, smorloc@gmail.com
 I wanted a script that would allow me to only change print & fan speeds per layer, not when the z-axis change happens, starting/ending at the ;LAYER:xx marker comments
 I started with the code from the ChangeAtZ script and have removed & re-written most of it to only handle print/fan speeds per layer
