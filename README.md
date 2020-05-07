@@ -1,5 +1,5 @@
 # SpeedChangeByLayer
-Cura plugin to insert print speed or fan speed changes on a layer by layer basis in the Cura generated GCode
+SpeedChangeByLayer is a Cura plugin to insert print speed or fan speed changes on a layer by layer basis in the Cura generated GCode
 
 Copyright (c) 2020 Randy Walker, randy@walkersystems.net
 
@@ -27,3 +27,14 @@ ie.If the first instance set print speed to 50% & a 2nd instance set print speed
 The script ends each layer change by resetting the fan speed back to the last fan speed found before the last layer affected.
 Fan speed changes are entered as a percentage of 100% [% of 255], not the original Cura speed or last found layer fan speed.
 Resetting fan speed: If the current layer originally had a speed of 50% [50% of 255 = 127.5 PWM number for the M106 command], then the fan speed will reset to that number at the end of the speed change
+
+# INSTALLATION:
+MAC:
+  1) Move SpeedChangeByLayer.py file into the scripts directory inside the Cura application (right-click app -> Show Package Contents:
+     Cura.app/Contents/Resources/plugins/plugins/PostprocessingPlugin/scripts/SpeedChangeByLayer.py
+  2) Restart Cura
+  3) Plugin can be found in Cura: Extensions -> Post Processing -> Modify G-Code
+     Then click, "Add a script" and choose "Speed Change By Layer"
+     
+WINDOWS:
+  1) I haven't installed a Cura plugin in Windows before.  Will update this once I find out how.
