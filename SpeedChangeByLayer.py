@@ -52,7 +52,7 @@ import re
 from ..Script import Script
 
 class SpeedChangeByLayer(Script):
-    version = "1.1.0"
+    version = "0.3.0"
     def __init__(self):
         super().__init__()
 
